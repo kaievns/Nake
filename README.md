@@ -1,12 +1,12 @@
 # Welcome!
 
-`Nake` is a (Ruby Rake)[http://rake.rubyforge.org] like tasks manager for
-(NodeJS)[http://nodejs.com]
+`Nake` is a [Ruby Rake](http://rake.rubyforge.org) like tasks manager for
+[NodeJS](http://nodejs.com)
 
 ## Usage Basics
 
 `Nake` provides you with some options how you can hook it up. First of all you
-can install `Nake` with (npm)[http://npmjs.org]
+can install `Nake` with [npm](htp://npmjs.org)
 
     npm install nake
 
@@ -25,6 +25,22 @@ Then run `nake` command in the terminal
 Call `-h` for the command line options
 
     nake -h
+
+## Using Without NPM
+
+If you don't have [npm](htp://npmjs.org) or want to use `Nake` as a standalone
+library, then just call `Nake.start()` the following way
+
+    var Nake = require('nake');
+
+    Nake.task(...);
+    Nake.task(...);
+
+    Nake.start(); // <- kicking in
+
+After that just run your file with [NodeJS](http://nodejs.com)
+
+    node ./myfile
 
 
 ## Namespaces
