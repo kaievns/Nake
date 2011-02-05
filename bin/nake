@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 
-var nake_file  = './Nakefile';
+var nake_file  = process.cwd() + '/Nakefile';
 var file_param = process.ARGV.join(' ').match(/\s+(-f|--file)\s+([^\s]+)/);
 
 if (file_param) {
