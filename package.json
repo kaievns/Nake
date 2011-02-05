@@ -1,5 +1,6 @@
 {
   "name":        "nake",
+  "version":     "0.1.0",
   "description": "GNU Make/Ruby Rake like tasks management tool for NodeJS",
   "author":      "Nikolay Nemshilov",
   "repository":  {
