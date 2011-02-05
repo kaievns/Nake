@@ -1,0 +1,13 @@
+{
+  "name":        "nake",
+  "description": "GNU Make/Ruby Rake like tasks management tool for NodeJS",
+  "author":      "Nikolay Nemshilov",
+  "repository":  {
+    "type": "git",
+    "url":  "http://github.com/MadRabbit/Nake.git"
+  },
+  "main": "lib/nake",
+  "bin": {
+    "nake": "./bin/nake"
+  }
+}
