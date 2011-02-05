@@ -6,7 +6,7 @@
 ## Usage Basics
 
 `Nake` provides you with some options how you can hook it up. First of all you
-can install `Nake` with [npm](htp://npmjs.org)
+can install `Nake` with [npm](http://npmjs.org)
 
     npm install nake
 
@@ -28,7 +28,7 @@ Call `-h` for the command line options
 
 ## Using Without NPM
 
-If you don't have [npm](htp://npmjs.org) or want to use `Nake` as a standalone
+If you don't have [npm](http://npmjs.org) or want to use `Nake` as a standalone
 library, then just call `Nake.start()` the following way
 
     var Nake = require('nake');
