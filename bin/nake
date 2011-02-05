@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 var nake_file  = './Nakefile';
 var file_param = process.ARGS.match(/\s+(-f|--file)\s+([^\s]+)/);
 
