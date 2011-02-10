@@ -87,6 +87,16 @@ Or you can save your tasks into local variables and run them directly
     task1.run();
     task2.run(true); // <- quiet run
 
+Additionally you can run another task in the quiet mode but specify
+a step text
+
+    Nake.task('taskname', 'Doing something');
+
+    task.run('Doing something');
+
+In this case 'nake' will run the task in quiet mode but will print out
+specified text as a step in the log of the currently working task.
+
 
 ## Logging The Steps
 
